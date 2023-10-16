@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet"/>
+
+        <!-- =============== CSS =============== -->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>AlgoExpo</title>
+
+        <!-- =============== FAVICON =============== -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+              </div>  
+            <nav class="nav container">
+                <a href="#" class="nav__logo">AlgoExpo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About Us</a>
+                        </li>
+                        <li class="nav__item dropdown">
+                          <div class="nav__link">Projects <i class="bx bx-chevron-down"></i></div>
+                          <ul class="dropdown-content">
+                            <li><a href="ml.html">Machine Learning</a></li>
+                            <li><a href="#dl">Deep Learning</a></li>
+                            <li><a href="#ai">AI</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Team" class="nav__link">Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+
+                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <img src="images/ml.png" alt="">
+
+                    <div class="home__data">
+                        <h1 class="home__title">AlgoExpo</h1>
+                        <p class="home__description">Your compass in the vast universe of machine learning</p>
+
+                        <a href="#services" class="button">Get Started!</a>
+
+                    </div>   
+                </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="about section container" id="about">
+              <div class="about__container grid">
+                <div class="about__data">
+                    <h2 class="section__title-center">Find Out A Little More <br> About Us</h2> <br>
+                    <p class="about__description">Welcome to AlgoExpo, your portal to the dynamic world of Machine Learning (ML), Deep Learning (DL), and Artificial Intelligence (AI). At AlgoExpo, we're dedicated to creating and showcasing innovative projects in ML, DL, and AI, leveraging the latest advancements to craft cutting-edge solutions. Join our community of tech enthusiasts, explore our diverse projects.Our commitment is to make AI accessible and understandable to all, helping you stay up-to-date with the ever-evolving world of ML, DL, and AI. Embark on this exciting AI adventure by exploring our projects today!
+                    </p>
+                </div>
+                   <img src="images/icon/boticon3.gif" alt="">                
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section container" id="services">
+                <div class="services__container grid">
+                    <div class="services__data">
+                        <h3 class="services__subtitle">Machine Learning</h3>
+                        <clipPath id="clip0">
+                            <img src="images/projects/ml.jpg" alt="" >
+                                
+                            <rect width="121" height="94" fill="white"/>
+                            </clipPath>
+                        <p class="services__description">Teaching computers to learn from data.</p>
+                        <div>
+                            <a href="ml.html" class="button button-link">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="services__data">
+                        <h3 class="services__subtitle">Deep Learning</h3>
+                        <clipPath id="clip0">
+                            <img src="images/projects/dl.jpg" alt="" >
+                                
+                            <rect width="121" height="94" fill="white"/>
+                            </clipPath>
+                        <p class="services__description">Discovering insights from deep within data</p>
+                        <div>
+                            <a href="#" class="button button-link">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="services__data">
+                        <h3 class="services__subtitle">Artificial intelligence</h3>
+                        <clipPath id="clip0">
+                        <img src="images/projects/Ai.jpeg" alt="" >
+                            
+                        <rect width="121" height="94" fill="white"/>
+                        </clipPath>
+                        <p class="services__description">Machines with a touch of human smarts.</p>
+                        <div>
+                            <a href="#" class="button button-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== APP ===============-->
+            <section class="team section container" id="Team">
+                <div class="row">
+                    <h1>Our Team</h1>
+                  </div>
+                  <div class="row">
+                    <!-- Column 1-->
+                    <div class="column">
+                      <div class="card">
+                        <div class="img-container">
+                          <img src="images/team/profile likki.jpg" />
+                        </div>
+                        <h3>N Likhith Reddy</h3>
+                        
+                        <div class="icons">
+                          <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-github"></i>
+                          </a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Column 2-->
+                    <div class="column">
+                      <div class="card">
+                        <div class="img-container">
+                          <img src="profile-img-2.png" />
+                        </div>
+                        <h3>Bryant Hall</h3>
+                        
+                        <div class="icons">
+                          
+                          <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-github"></i>
+                          </a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Column 3-->
+                    <div class="column">
+                      <div class="card">
+                        <div class="img-container">
+                          <img src="profile-img-3.png" />
+                        </div>
+                        <h3>Hope Watkins</h3>
+                        
+                        <div class="icons">
+                          
+                          <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-github"></i>
+                          </a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Column 4-->
+                    <div class="column">
+                        <div class="card">
+                          <div class="img-container">
+                            <img src="profile-img-3.png" />
+                          </div>
+                          <h3>Hope Watkins</h3>
+                          
+                          <div class="icons">
+                            
+                            <a href="#">
+                              <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                              <i class="fab fa-github"></i>
+                            </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+               
+            
+            </section>
+
+            <!--=============== CONTACT US ===============-->
+            <section class="contact section container" id="contact">
+                <div class="contact__container grid">
+                    <div class="contact__content">
+                        <h2 class="section__title-center">Contact Us</h2> <br>
+                        <p class="contact__description">We'd love to hear from you! Whether you have a question, feedback, or want to collaborate, our team is here to assist. Reach out to us using the contact information below</p>
+                    </div>
+
+                    <ul class="contact__content grid">
+                        <li class="contact__address">Email:  <span class="contact__information">algoexpo123@gmail.com</span></li>
+                        <li class="contact__address">Location: <span class="contact__information">Telangana - India</span></li>
+                    </ul>
+
+                    <div class="contact__content">
+                        <a href="https://github.com/" class="button">Contact Us</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">AlgoExpo</a>
+                    <p class="footer__description">Ready to explore?</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul class="footer__links">
+                        <li><a href="https://github.com/" class="footer__link">Support </a></li>
+                        <li><a href="#" class="footer__link">Machine Learning</a></li>
+                        <li><a href="#" class="footer__link">Deep Learning</a></li>
+                        <li><a href="#" class="footer__link">Artificial Intelligence</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Community</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Support</a></li>
+                        <li><a href="https://github.com/" class="footer__link">Questions</a></li>
+                        <li><a href="#" class="footer__link">Discord</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="https://github.com/" class="footer__social-link"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; AlgoExpo. All right reserved</p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+        <!--=============== MAIN JS ===============-->
+        
+        <script src="script.js"></script>
+        <script>
+            
+            </script>
+    </body>
+</html>
+
